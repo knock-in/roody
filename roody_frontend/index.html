@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+	</head>
+
+	<body>
+		<div class="ui basic segment">
+		<h1 style="color: white;">Roody</h1>
+		<div class="ui inverted top attached tabular menu">
+			<a class="active item" data-tab="temperature">Temperature</a>
+			<a class="item" data-tab="humidity">Humidity</a>
+			<a class="item" data-tab="carbonous">Carbonous</a>
+			<a class="item" data-tab="smoke">Smoke</a>
+		</div>
+		<div class="ui inverted bottom attached active tab segment" data-tab="temperature">
+			<canvas id="temperature" width="400" height="400"></canvas>
+		</div>
+		<div class="ui inverted bottom attached tab segment" data-tab="humidity">
+			<canvas id="humidity" width="400" height="400"></canvas>
+		</div>
+		<div class="ui inverted bottom attached tab segment" data-tab="carbonous">
+			<canvas id="carbonous" width="400" height="400"></canvas>
+		</div>
+		<div class="ui inverted bottom attached tab segment" data-tab="smoke">
+			<canvas id="smoke" width="400" height="400"></canvas>
+		</div>
+		</div>
+	</body>
+
+</html>
